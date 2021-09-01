@@ -4,7 +4,7 @@ export const projectsData = [
     title: "Book scraping",
     date: "Novembre 2020",
     languages: ["Python"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-python"],
     python_packages: [""],
     infos:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
@@ -16,7 +16,7 @@ export const projectsData = [
       "pour chacune des trois catégories choisies, le classement des 7 meilleurs films"/
       "des fenêtres modales devront s'ouvrir lorsqu'on clique sur les affiches des films"/
       "ces fenêtres modales donnent les principales informations des films.",
-    img: "./assets/img/projet-2.png",
+    img: "./media/projet-2.png",
     link: "https://github.com/S0Imyr/Projet-2",
   },
   {
@@ -24,13 +24,13 @@ export const projectsData = [
     title: "Education",
     date: "Novembre 2020",
     languages: ["Balsamiq"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:[],
     infos:
       "Le projet permet de parcourir les différentes possibilités pour créer des endpoints : ViewSet, APIView ou les GenericViewSet."/
       "Pour équilibrer entre un code DRY et la personnalisation que demande le projet, j'ai opté pour les APIView."/
       "Il permet une mise en pratique des sérialiseurs et de l'authentification."/
       "Un autre point important est la gestion des permissions à différents niveaux.",
-    img: "./assets/img/projet-3.jpg",
+    img: "./media/projet-3.png",
     link: "https://github.com/S0Imyr/Projet-3",
   },
   {
@@ -38,7 +38,7 @@ export const projectsData = [
     title: "Chess Organizer",
     date: "Décembre 2020",
     languages: ["Python"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-python"],
     python_packages: ["requests", "BeautifoulSoup"],
     infos:
       "Le client est une association qui organise des tounois d'échecs. Elle souhaite que nous réalisions un programme logiciel aidant à l'organisation des matchs."/
@@ -52,7 +52,7 @@ export const projectsData = [
       "Pour les listes de joueurs, elles doivent être disponibles par ordre alphabétique ou selon leur classement."/
       "En termes de spécifications techniques, il est exigé de suivre un design pattern, il s'agit de se conformer à un modèle de conception MVC (Modèle, Vue, Contrôleur)."/
       "Pour la base de données, on utilisera le package TinyDB. Enfin le code Python devra respecter la PEP8.",
-    img: "./assets/img/projet-4.jpg",
+    img: "./media/projet-4.png",
     link: "https://github.com/S0Imyr/Projet-4",
   },
   {
@@ -60,7 +60,7 @@ export const projectsData = [
     title: "Projet 6",
     date: "Janvier 2020",
     languages: ["HTML", "CSS", "Sass", "Javascript"],
-    languagesIcons:['fab fa-js', 'fab fa-css3-alt'],
+    languagesIcons:['fab fa-js', 'fab fa-css3-alt', "fab fa-sass"],
     infos:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
       "Elle nous fournit pour cela un repository permettant de simuler en local l'appel à une API (Application Programming Interface)."/
@@ -71,7 +71,7 @@ export const projectsData = [
       "pour chacune des trois catégories choisies, le classement des 7 meilleurs films"/
       "des fenêtres modales devront s'ouvrir lorsqu'on clique sur les affiches des films"/
       "ces fenêtres modales donnent les principales informations des films.",
-    img: "./assets/img/projet-6.jpg",
+    img: "./media/projet-6.png",
     link: "https://github.com/S0Imyr/Projet-6",
   },
   {
@@ -79,7 +79,7 @@ export const projectsData = [
     title: "Projet 7",
     date: "Février 2020",
     languages: ["Python"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-python"],
     python_packages: ["Itertools"],
     infos:
       "Une société financière fait appel à nous pour optimiser ses stratégies d'investissement."/
@@ -88,15 +88,15 @@ export const projectsData = [
       "Un premier programme de force brute doit parcourir l'ensemble des possibilités d'investissement pour en retenir la meilleure."/
       "Dans un second temps, le programme doit pouvoir tourner pour un portefeuille d'actions plus large."/
       "Le programme de force brute développé sera donc trop long, il nous est donc demandé de développer une solution plus optimisée.",
-    img: "./assets/img/projet-7.jpg",
+    img: "./media/projet-7.png",
     link: "https://github.com/S0Imyr/Projet-7",
   },
   {
     id: 9,
     title: "Projet 9",
     date: "Mars 2020",
-    languagesIcons:["fas fa-python"],
     languages: ["Django", "Python", "HTML", "CSS"],
+    languagesIcons:["fab fa-python", 'fab fa-css3-alt', "fab fa-sass"],
     infos:
       "Une start-up souhaite créer un site de critiques littéraires avec un système de followers."/
       "L'utilisateur doit donc pouvoir demander une critique sur un livre, ou à l'inverse répondre à une demande de critique."/
@@ -106,7 +106,7 @@ export const projectsData = [
       "Une page permet aussi de voir et modifier ses contributions."/
       "Trois pages contenant des formulaires permettent à l'utilisateur de participer aux critiques. Une pour y répondre, une pour critiquer et une dernière pour créer une critique pour une oeuvre sans sollicitation."/
       "Enfin une page doit permettre de suivre d'autres utilisateurs et de connaître les utilisateurs suivis. Elle pourra aussi indiquer les utilisateurs qui le suivent.",
-    img: "./assets/img/projet-9.jpg",
+    img: "./media/projet-9.png",
     link: "https://github.com/S0Imyr/Projet-9",
   },
   {
@@ -114,7 +114,7 @@ export const projectsData = [
     title: "Projet 10",
     date: "Avril 2020",
     languages: ["Django Rest Framework", "Django", "Python"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-python"],
     python_packages: ["Unittest"],
     infos:
     "Une entreprise de développement souhaite avoir une application de suivi des bugs et problèmes de leurs projets en développement."/
@@ -127,7 +127,7 @@ export const projectsData = [
     "Pour mettre à jour ou supprimer un problème, il faut en être l'auteur."/
     "Enfin les contributeurs d'un projet peuvent créer et lire des commentaires relatifs à un problème."/
     "La mise à jour ou la suppression d'un commentaire demande que l'utilisateur soit l'auteur.",
-    img: "./assets/img/projet-10.png",
+    img: "./media/projet-10.png",
     link: "https://github.com/S0Imyr/Projet-10",
   },
   {
@@ -135,14 +135,14 @@ export const projectsData = [
     title: "Projet 11",
     date: "Mai 2020",
     languages: ["Flask", "Python", "Locust"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-python"],
     python_packages: ["Pytest"],
     infos:
       "Un projet a été initié par un collègue absent. Il s'agit de réaliser une application pour coordonner l'organisation de compétitions entre plusieurs clubs."/
       "Une précédente version s'est avérée trop lourde pour les organisateurs régionaux. Le collègue a opté pour réalisé le projet avec Flask."/
       "Il nous est demandé de reprendre le projet et de corriger les bugs déjà recensés par le collègue. Il s'agit aussi de réaliser des tests pour couvrir ses bugs."/
       "Enfin il faudra terminer le projet en suivant une approche de Test Driven Developpement et tester les performances avec Locust.",
-    img: "./assets/img/projet-11.png",
+    img: "./media/projet-11.png",
     link: "https://github.com/S0Imyr/Projet-11",
   },
   {
@@ -150,7 +150,7 @@ export const projectsData = [
     title: "Epic Events",
     date: "Février 2020",
     languages: ["Django Rest", "Python", "Postman"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-python"],
     skills: ["Conception de l'architecture d'une API", "Réaliser une API avec Django Rest Framework", "Documenter une application avec Postman"],
     python_packages: ["Unittest"],
     infos:
@@ -158,7 +158,7 @@ export const projectsData = [
       "Pour effectuer le suivi de tous les clients et événements, un CRM (Customer Relationship Management) est géré par un fournisseur."/
       "Ce fournisseur a malheureusement été piraté et il nous est demandé de créer un logiciel CRM interne."/
       "Il s'agit dans un premier temps de réaliser un diagramme entité-relation (ERD) puis de développer l'application sous django avec une base de donnée PostgreSQL.",
-    img: "./assets/img/projet-12.png",
+    img: "./media/projet-12.png",
     link: "https://github.com/S0Imyr/Projet-12",
   },
   {
@@ -167,7 +167,7 @@ export const projectsData = [
     date: "Juin Juillet 2020",
     skills: ["Réaliser un Pipeline CI/CD", "Générer et utiliser une image Docker", "Configurer le suivi des erreurs avec Sentry"],
     languages: ["CircleCI", "Docker", "Sentry"],
-    languagesIcons:["fas fa-python"],
+    languagesIcons:["fab fa-docker"],
     infos:
       "Nous travaillons au sein d'une start-up dans la location de biens immobiliers. Il nous est demandé d'améliorer un site existant."/
       "Un repository Github avec les instructions pour l'exécuter en local nous est fourni."/
@@ -176,7 +176,7 @@ export const projectsData = [
       "la refonte de l'architecture modulaire"/
       "l'ajout d'un pipeline CI/CD utilisant CircleCI et Heroku"/
       "la surveillance de l'application de le suivi des erreurs via Sentry.",
-    img: "./assets/img/projet-13.png",
+    img: "./media/projet-13.png",
     link: "https://github.com/S0Imyr/Projet-13",
   },
 ];
