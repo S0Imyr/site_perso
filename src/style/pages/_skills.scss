@@ -15,6 +15,7 @@
           background: $color-2;
           border-radius: $borderRadius;
           padding: .8rem;
+          font-weight: 600;
         }
         h3 {
           font-size: 1.4rem;
@@ -44,35 +45,6 @@
             margin-bottom: 0.3rem;
           }
     
-          .XP {
-            font-size: .65rem;
-            display: flex;
-            justify-content: space-between;
-            color: $white;
-    
-            span {
-              width: 36%;
-    
-              &:nth-child(2){
-                text-align: center; 
-                width: 20%;
-              }
-              &:nth-child(3){
-                text-align: right;
-                width: 44%;
-              }
-            
-              &:nth-child(2):before,
-              &:nth-child(3):before {
-                content:'';
-                background: rgba(180, 179, 179, 0.507);
-                position: absolute;
-                height: 146px;
-                width: 1px;
-                transform: translate(9px, 19px);
-              }
-            }
-          }
           .languagesList {
             padding-top: .5rem;
     
@@ -107,20 +79,13 @@
         .experience {
           grid-area: E;
           margin: 0 0 .5rem .5rem;
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-rows: 10% 1fr 1fr;
-          grid-template-areas: 
-            "1"
-            "2"
-            "3";
-          
-          h3 {
-            grid-area: 1;
-          }
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
           h4 {
             font-size: 1.1rem;
-            color: $color-5;
+            color: $color-1;
           }
           h5 {
             color: $color-3;
@@ -130,12 +95,7 @@
             text-align: justify;
             padding: 0 1rem;
           }
-          .exp-1 {
-            grid-area: 2;
-          }
-          .exp-2 {
-            grid-area: 3;
-          }
+
         }
         .otherSkills {
           grid-area: O;
@@ -146,7 +106,7 @@
             width: 80%;
             height: 100%;
             margin: 0 auto;
-            justify-content: space-between;
+            justify-content: space-around;
     
             ul {
               height: 80%;

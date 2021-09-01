@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = () => {
     return (
         <div className="experience">
-            <h3>Expériences</h3>
+            <h3>Parcours</h3>
             <div className="Python">
                 <h4><i className="fas fa-graduation-cap"></i> Parcours Développeur d'application Python</h4>
                 <h5>2021</h5>
@@ -14,7 +14,7 @@ const Experience = () => {
             </div>
             <div className="CAPES">
                 <h4><i className="fas fa-graduation-cap"></i> Obtention du CAPES</h4>
-                <h5>2015</h5>
+                <h5>2016</h5>
             </div>
             <div className="Finance">
                 <h4><i className="fas fa-briefcase"></i> Stage - Risque de Marché</h4>

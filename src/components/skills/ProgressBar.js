@@ -4,13 +4,7 @@ const ProgressBar = (props) => {
     return (
         <div className={props.className}>
             <h3>{props.title}</h3>
-            <div className="XP">
-                <span>0</span>
-                <span>5</span>
-                <span>10</span>
-            </div>
-
-            <div>
+            <div className="bars">
             {
                 props.data.map((item) => {
                     let max=10;
