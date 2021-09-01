@@ -12,7 +12,7 @@ class Project extends Component {
                 </div>
                 <h3>{title}</h3>
                 <img src={img} alt='/' />
-                <span className='info'>
+                <span className='infos'>
                     <i className='fas fa-plus-circle'></i>
                 </span>
             </div>
