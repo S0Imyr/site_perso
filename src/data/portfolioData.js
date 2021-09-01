@@ -6,7 +6,9 @@ export const projectsData = [
     languages: ["Python"],
     languagesIcons:["fab fa-python"],
     python_packages: [""],
-    infos:
+    resume: "Le projet consiste à scraper une bibliothèque 1000 livres répartis en catégories. Le programme doit créer un fichier csv par catégorie avec pour chaque livre, l'ensemble des données disponibles (prix, description, auteur, ...). Enfin un dossier image par catégorie doit stocker ces images au nom du livre."
+    ,
+    détail:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
       "Elle nous fournit pour cela un repository permettant de simuler en local l'appel à une API (Application Programming Interface)."/
       "Nous y ferons donc appel pour que les classements de films s'actualisent."/
@@ -25,7 +27,7 @@ export const projectsData = [
     date: "Novembre 2020",
     languages: ["Balsamiq"],
     languagesIcons:[],
-    infos:
+    info:
       "Le projet permet de parcourir les différentes possibilités pour créer des endpoints : ViewSet, APIView ou les GenericViewSet."/
       "Pour équilibrer entre un code DRY et la personnalisation que demande le projet, j'ai opté pour les APIView."/
       "Il permet une mise en pratique des sérialiseurs et de l'authentification."/
@@ -40,7 +42,7 @@ export const projectsData = [
     languages: ["Python"],
     languagesIcons:["fab fa-python"],
     python_packages: ["requests", "BeautifoulSoup"],
-    infos:
+    info:
       "Le client est une association qui organise des tounois d'échecs. Elle souhaite que nous réalisions un programme logiciel aidant à l'organisation des matchs."/
       "Lors de tournoi d'échecs, le programme doit permettre d'établir quels joueurs devront s'affronter."/
       "Le programme doit respecter pour cela, les règles du tournoi suisse."/
@@ -59,9 +61,9 @@ export const projectsData = [
     id: 6,
     title: "Projet 6",
     date: "Janvier 2020",
-    languages: ["HTML", "CSS", "Sass", "Javascript"],
+    languages: ["CSS", "Sass", "Javascript"],
     languagesIcons:['fab fa-js', 'fab fa-css3-alt', "fab fa-sass"],
-    infos:
+    info:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
       "Elle nous fournit pour cela un repository permettant de simuler en local l'appel à une API (Application Programming Interface)."/
       "Nous y ferons donc appel pour que les classements de films s'actualisent."/
@@ -81,7 +83,7 @@ export const projectsData = [
     languages: ["Python"],
     languagesIcons:["fab fa-python"],
     python_packages: ["Itertools"],
-    infos:
+    info:
       "Une société financière fait appel à nous pour optimiser ses stratégies d'investissement."/
       "Dans un premier temps, elle souhaite avoir un programme python qui analyse un portefeuille réduit de 20 actions."/
       "Pour chaque action, nous avons la possibilité de l'acheter une fois ou de ne pas l'acheter."/
@@ -95,9 +97,9 @@ export const projectsData = [
     id: 9,
     title: "Projet 9",
     date: "Mars 2020",
-    languages: ["Django", "Python", "HTML", "CSS"],
+    languages: ["Django", "Python", "Sass", "CSS"],
     languagesIcons:["fab fa-python", 'fab fa-css3-alt', "fab fa-sass"],
-    infos:
+    info:
       "Une start-up souhaite créer un site de critiques littéraires avec un système de followers."/
       "L'utilisateur doit donc pouvoir demander une critique sur un livre, ou à l'inverse répondre à une demande de critique."/
       "Le système de followers détermine donc les messages que l'utilsateur peut voir, grossièrement les siens et ceux des personnes qu'il suit."/
@@ -113,10 +115,10 @@ export const projectsData = [
     id: 10,
     title: "Projet 10",
     date: "Avril 2020",
-    languages: ["Django Rest Framework", "Django", "Python"],
+    languages: ["Django", "Python"],
     languagesIcons:["fab fa-python"],
     python_packages: ["Unittest"],
-    infos:
+    info:
     "Une entreprise de développement souhaite avoir une application de suivi des bugs et problèmes de leurs projets en développement."/
     "La mission est donc de réaliser cette API en utilisant Django REST Framework."/
     "Elle doit tout d'abord permettre l'authentification des utilisateurs avec JWT."/
@@ -137,7 +139,7 @@ export const projectsData = [
     languages: ["Flask", "Python", "Locust"],
     languagesIcons:["fab fa-python"],
     python_packages: ["Pytest"],
-    infos:
+    info:
       "Un projet a été initié par un collègue absent. Il s'agit de réaliser une application pour coordonner l'organisation de compétitions entre plusieurs clubs."/
       "Une précédente version s'est avérée trop lourde pour les organisateurs régionaux. Le collègue a opté pour réalisé le projet avec Flask."/
       "Il nous est demandé de reprendre le projet et de corriger les bugs déjà recensés par le collègue. Il s'agit aussi de réaliser des tests pour couvrir ses bugs."/
@@ -149,11 +151,11 @@ export const projectsData = [
     id: 12,
     title: "Epic Events",
     date: "Février 2020",
-    languages: ["Django Rest", "Python", "Postman"],
+    languages: ["Django", "Python", "Postman"],
     languagesIcons:["fab fa-python"],
     skills: ["Conception de l'architecture d'une API", "Réaliser une API avec Django Rest Framework", "Documenter une application avec Postman"],
     python_packages: ["Unittest"],
-    infos:
+    info:
       "Nous travaillons au sein d'une entreprise dans l'événementiel."/
       "Pour effectuer le suivi de tous les clients et événements, un CRM (Customer Relationship Management) est géré par un fournisseur."/
       "Ce fournisseur a malheureusement été piraté et il nous est demandé de créer un logiciel CRM interne."/
@@ -166,9 +168,9 @@ export const projectsData = [
     title: "OC Lettings",
     date: "Juin Juillet 2020",
     skills: ["Réaliser un Pipeline CI/CD", "Générer et utiliser une image Docker", "Configurer le suivi des erreurs avec Sentry"],
-    languages: ["CircleCI", "Docker", "Sentry"],
+    languages: ["Django", "Python", "CircleCI", "Docker", "Sentry"],
     languagesIcons:["fab fa-docker"],
-    infos:
+    info:
       "Nous travaillons au sein d'une start-up dans la location de biens immobiliers. Il nous est demandé d'améliorer un site existant."/
       "Un repository Github avec les instructions pour l'exécuter en local nous est fourni."/
       "Les points à améliorer/ajouter sont :"/
