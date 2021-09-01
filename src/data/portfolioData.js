@@ -4,6 +4,7 @@ export const projectsData = [
     title: "Book scraping",
     date: "Novembre 2020",
     languages: ["Python"],
+    languagesIcons:["fas fa-python"],
     python_packages: [""],
     infos:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
@@ -23,6 +24,7 @@ export const projectsData = [
     title: "Education",
     date: "Novembre 2020",
     languages: ["Balsamiq"],
+    languagesIcons:["fas fa-python"],
     infos:
       "Le projet permet de parcourir les différentes possibilités pour créer des endpoints : ViewSet, APIView ou les GenericViewSet."/
       "Pour équilibrer entre un code DRY et la personnalisation que demande le projet, j'ai opté pour les APIView."/
@@ -36,6 +38,7 @@ export const projectsData = [
     title: "Chess Organizer",
     date: "Décembre 2020",
     languages: ["Python"],
+    languagesIcons:["fas fa-python"],
     python_packages: ["requests", "BeautifoulSoup"],
     infos:
       "Le client est une association qui organise des tounois d'échecs. Elle souhaite que nous réalisions un programme logiciel aidant à l'organisation des matchs."/
@@ -56,7 +59,8 @@ export const projectsData = [
     id: 6,
     title: "Projet 6",
     date: "Janvier 2020",
-    languages: ["HTML", "CSS", "Sass"],
+    languages: ["HTML", "CSS", "Sass", "Javascript"],
+    languagesIcons:['fab fa-js', 'fab fa-css3-alt'],
     infos:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
       "Elle nous fournit pour cela un repository permettant de simuler en local l'appel à une API (Application Programming Interface)."/
@@ -75,6 +79,7 @@ export const projectsData = [
     title: "Projet 7",
     date: "Février 2020",
     languages: ["Python"],
+    languagesIcons:["fas fa-python"],
     python_packages: ["Itertools"],
     infos:
       "Une société financière fait appel à nous pour optimiser ses stratégies d'investissement."/
@@ -90,6 +95,7 @@ export const projectsData = [
     id: 9,
     title: "Projet 9",
     date: "Mars 2020",
+    languagesIcons:["fas fa-python"],
     languages: ["Django", "Python", "HTML", "CSS"],
     infos:
       "Une start-up souhaite créer un site de critiques littéraires avec un système de followers."/
@@ -108,6 +114,7 @@ export const projectsData = [
     title: "Projet 10",
     date: "Avril 2020",
     languages: ["Django Rest Framework", "Django", "Python"],
+    languagesIcons:["fas fa-python"],
     python_packages: ["Unittest"],
     infos:
     "Une entreprise de développement souhaite avoir une application de suivi des bugs et problèmes de leurs projets en développement."/
@@ -128,6 +135,7 @@ export const projectsData = [
     title: "Projet 11",
     date: "Mai 2020",
     languages: ["Flask", "Python", "Locust"],
+    languagesIcons:["fas fa-python"],
     python_packages: ["Pytest"],
     infos:
       "Un projet a été initié par un collègue absent. Il s'agit de réaliser une application pour coordonner l'organisation de compétitions entre plusieurs clubs."/
@@ -142,6 +150,7 @@ export const projectsData = [
     title: "Epic Events",
     date: "Février 2020",
     languages: ["Django Rest", "Python", "Postman"],
+    languagesIcons:["fas fa-python"],
     skills: ["Conception de l'architecture d'une API", "Réaliser une API avec Django Rest Framework", "Documenter une application avec Postman"],
     python_packages: ["Unittest"],
     infos:
@@ -158,6 +167,7 @@ export const projectsData = [
     date: "Juin Juillet 2020",
     skills: ["Réaliser un Pipeline CI/CD", "Générer et utiliser une image Docker", "Configurer le suivi des erreurs avec Sentry"],
     languages: ["CircleCI", "Docker", "Sentry"],
+    languagesIcons:["fas fa-python"],
     infos:
       "Nous travaillons au sein d'une start-up dans la location de biens immobiliers. Il nous est demandé d'améliorer un site existant."/
       "Un repository Github avec les instructions pour l'exécuter en local nous est fourni."/
