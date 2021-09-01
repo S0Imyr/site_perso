@@ -18,13 +18,13 @@ const OtherSkills = () => {
                 </ul>
                 <ul>
                     <li> <i className="fas fa-check-square"></i>
-                    <span> Anglais courant</span>
+                    <span> Docker</span>
                     </li>
                     <li> <i className="fas fa-check-square"></i>
-                    <span> Github</span>
+                    <span> PostgreSQL</span>
                     </li>
                     <li> <i className="fas fa-check-square"></i>
-                    <span> Méthodes agiles</span>
+                    <span> Postman</span>
                     </li>
                 </ul>
             </div>
