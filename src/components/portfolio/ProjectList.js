@@ -5,23 +5,51 @@ import Project from './Project';
 
 class ProjectList extends Component {
     state = {
-        projects:projectsData
+        projects:projectsData,
+        radios: [
+            {id:1, value: "Python"},
+            {id:2, value: "Django"},
+            {id:3, value: "Javascript"},
+            {id:3, value: "Sass"},
+        ],
+        selectedRadio:"",
     };
-    
+    handleRadio = (event) => {
+        let radio = event.target.value;
+        this.setState({selectedRadio: radio});
+    }
     
     render() {
-        let {projects} = this.state;
+        let {projects, radios, selectedRadio} = this.state;
 
 
         return (
             <div className="portfolioContent">
                 <ul className="radioDisplay">
-
+                    {
+                        radios.map((radio) => {
+                            return (
+                                <li key={radio.id}>
+                                <input 
+                                    type="radio"
+                                    name="radio"
+                                    value={radio.value}
+                                    id={radio.value}
+                                    checked={radio.value === selectedRadio}
+                                    onChange={this.handleRadio}
+                                />
+                                <label htmlFor={radio.value}>{radio.value}</label>
+                            </li>
+                            )
+                        }
+                        )
+                    }
                 </ul>
                 <div className="projects">
                     {
-                        projects.map(item => {
-                            
+                        projects
+                        .filter(item => item.languages.includes(selectedRadio))
+                        .map(item => {
                             return (
                                 <Project 
                                     key={item.id}
