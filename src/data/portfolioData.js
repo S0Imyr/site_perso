@@ -8,7 +8,7 @@ export const projectsData = [
     languagesIcons:["fab fa-aws","fab fa-react", "fab fa-sass",  'fab fa-css3-alt'],
     resume: "Réalisation de ce site personnel à l'aide de React",
     detail:"",
-    img: "./media/projet-perso.png",
+    img: "./media/projet-14.png",
     link: "https://github.com/S0Imyr/site_perso",
   },
   {
@@ -151,7 +151,7 @@ export const projectsData = [
     python_packages: ["requests", "BeautifoulSoup"],
     resume: "Pour une association qui organise des tournois d'échecs, il s'agit de réaliser un logiciel permettant d'établir les confrontations du tournoi en respectant les règles du tournoi suisse. Il doit être possible d'interrompre le programme et de le relancer au même stade du tournoi.",
     detail:
-      "Le client est une association qui organise des tounois d'échecs. Elle souhaite que nous réalisions un programme logiciel aidant à l'organisation des matchs."/
+      "Le client est une association qui organise des tournois d'échecs. Elle souhaite que nous réalisions un programme logiciel aidant à l'organisation des matchs."/
       "Lors de tournoi d'échecs, le programme doit permettre d'établir quels joueurs devront s'affronter."/
       "Le programme doit respecter pour cela, les règles du tournoi suisse."/
       "Un tournoi pouvant être interrompu et repris le lendemain, il doit être possible d'interrompre le programme et de le relancer au même stade du tournoi."/
