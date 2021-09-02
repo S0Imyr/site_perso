@@ -23,7 +23,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Education",
+    title: "Learn@Home",
     date: "Novembre 2020",
     languages: ["Balsamiq"],
     languagesIcons:[],
@@ -59,10 +59,10 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Projet 6",
+    title: "Just Stream It",
     date: "Janvier 2020",
     languages: ["CSS", "Sass", "Javascript"],
-    languagesIcons:['fab fa-js', 'fab fa-css3-alt', "fab fa-sass"],
+    languagesIcons:['fab fa-js', "fab fa-sass",  'fab fa-css3-alt'],
     info:
       "Une association de critiques de films souhaite développer une page web qui affiche les films les mieux notés."/
       "Elle nous fournit pour cela un repository permettant de simuler en local l'appel à une API (Application Programming Interface)."/
@@ -78,7 +78,7 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: "Projet 7",
+    title: "AlgoInvest&Trade",
     date: "Février 2020",
     languages: ["Python"],
     languagesIcons:["fab fa-python"],
@@ -95,7 +95,7 @@ export const projectsData = [
   },
   {
     id: 9,
-    title: "Projet 9",
+    title: "LITReview",
     date: "Mars 2020",
     languages: ["Django", "Python", "Sass", "CSS"],
     languagesIcons:["fab fa-python", 'fab fa-css3-alt', "fab fa-sass"],
@@ -113,7 +113,7 @@ export const projectsData = [
   },
   {
     id: 10,
-    title: "Projet 10",
+    title: "SoftDesk",
     date: "Avril 2020",
     languages: ["Django", "Python"],
     languagesIcons:["fab fa-python"],
@@ -134,7 +134,7 @@ export const projectsData = [
   },
   {
     id: 11,
-    title: "Projet 11",
+    title: "Tests",
     date: "Mai 2020",
     languages: ["Flask", "Python", "Locust"],
     languagesIcons:["fab fa-python"],
@@ -180,5 +180,16 @@ export const projectsData = [
       "la surveillance de l'application de le suivi des erreurs via Sentry.",
     img: "./media/projet-13.png",
     link: "https://github.com/S0Imyr/Projet-13",
+  },
+  {
+    id: 14,
+    title: "Site",
+    date: "Aout 2020",
+    skills: ["Réaliser un Pipeline CI/CD", "Générer et utiliser une image Docker", "Configurer le suivi des erreurs avec Sentry"],
+    languages: ["React", "Javascript", "Sass"],
+    languagesIcons:["fab fa-react", "fab fa-sass",  'fab fa-css3-alt'],
+    info:"",
+    img: "./media/projet-perso.png",
+    link: "https://github.com/S0Imyr/site_perso",
   },
 ];
