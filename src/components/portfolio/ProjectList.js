@@ -10,7 +10,7 @@ class ProjectList extends Component {
             {id:1, value: "Python"},
             {id:2, value: "Django"},
             {id:3, value: "Javascript"},
-            {id:3, value: "Sass"},
+            {id:4, value: "Sass"},
         ],
         selectedRadio:"",
     };
@@ -21,8 +21,10 @@ class ProjectList extends Component {
     
     render() {
         let {projects, radios, selectedRadio} = this.state;
-
-
+        let selectedProjects = projects
+        if (selectedRadio!=="") {
+            selectedProjects = projects.filter(item => item.languages.includes(selectedRadio));
+        }
         return (
             <div className="portfolioContent">
                 <ul className="radioDisplay">
@@ -47,8 +49,7 @@ class ProjectList extends Component {
                 </ul>
                 <div className="projects">
                     {
-                        projects
-                        .filter(item => item.languages.includes(selectedRadio))
+                        selectedProjects
                         .map(item => {
                             return (
                                 <Project 
