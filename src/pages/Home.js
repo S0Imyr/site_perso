@@ -12,7 +12,7 @@ function Home() {
             <h2>Développeur Python</h2>
             <p>Bonjour et bienvenue !</p>
             <div className="pdf">
-              <a href="./media/CV_LOSSEC_Raphael.pdf" download="CV_LOSSEC_Raphael.pdf">Télécharger CV</a>
+              <a href="https://github.com/S0Imyr/site_perso/blob/master/public/media/CV_LOSSEC_Raphael.pdf" download="CV_LOSSEC_Raphael.pdf">Télécharger CV</a>
             </div>
           </div>
         </div>
